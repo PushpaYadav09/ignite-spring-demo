@@ -33,20 +33,21 @@ The application exposes two simple endpoints:
 These endpoints are intentionally minimal to make deployment testing fast and reliable while still validating key platform features such as routing, logs, environment variables, and rebuilds.
 
 ##  Project Structure
-ignite-spring-demo/
-├─ src/
-│  └─ main/
-│     ├─ java/
-│     │  └─ com/example/demo/
-│     │     ├─ DemoApplication.java             # Application entry point
-│     │     ├─ IgniteSpringDemoApplication.java # Alternate/Main class
-│     │     ├─ HelloController.java             # /java-app endpoint
-│     │     └─ HealthController.java            # /health endpoint
-│     └─ resources/
-│        └─ application.properties              # Application configuration
-│
-├─ pom.xml                                      # Dependencies + Build configuration
-└─ README.md                                    # Documentation
+### ignite-spring-demo/
+
+#### /src/main/java/com/example/demo/
+- DemoApplication.java — Application entry point  
+- IgniteSpringDemoApplication.java — Alternate main class  
+- HelloController.java — `/java-app` endpoint  
+- HealthController.java — `/health` endpoint  
+
+#### /src/main/resources/
+- application.properties — App configuration  
+
+#### Root Files
+- pom.xml — Build configuration  
+- README.md — Documentation  
+
 
 
 Each class is small and easy to understand , ideal for testing cloud builds.
