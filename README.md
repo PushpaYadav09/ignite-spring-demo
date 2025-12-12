@@ -34,12 +34,19 @@ These endpoints are intentionally minimal to make deployment testing fast and re
 
 ##  Project Structure
 ignite-spring-demo/
+
 ├ src/main/java/com/example/demo/
+
 │ - DemoApplication.java # Application entry point
+
 │ - HelloController.java # /java-app endpoint
+
 │ - HealthController.java # /health endpoint
+
 | - IgniteSpringDemoApplication.java 
+
 ├ src/main/resources/
+
 │ - application.properties # App configuration
 ├ pom.xml # Dependencies + Build config
 |- README.md # Documentation
