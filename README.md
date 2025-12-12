@@ -38,15 +38,16 @@ ignite-spring-demo/
 │  └─ main/
 │     ├─ java/
 │     │  └─ com/example/demo/
-│     │     ├─ DemoApplication.java            # Application entry point
-│     │     ├─ IgniteSpringDemoApplication.java # (Alternate/Main class, if used)
-│     │     ├─ HelloController.java            # /java-app endpoint
-│     │     └─ HealthController.java           # /health endpoint
+│     │     ├─ DemoApplication.java             # Application entry point
+│     │     ├─ IgniteSpringDemoApplication.java # Alternate/Main class
+│     │     ├─ HelloController.java             # /java-app endpoint
+│     │     └─ HealthController.java            # /health endpoint
 │     └─ resources/
-│        └─ application.properties             # Application configuration
+│        └─ application.properties              # Application configuration
 │
 ├─ pom.xml                                      # Dependencies + Build configuration
 └─ README.md                                    # Documentation
+
 
 Each class is small and easy to understand , ideal for testing cloud builds.
 
