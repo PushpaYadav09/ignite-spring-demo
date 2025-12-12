@@ -59,6 +59,7 @@ A simple JSON response used as the primary test endpoint.
   "message": "Hello from Viduli QA Test!"
 }
 
+```
 Purpose:
 
 Verify the app deployed successfully
@@ -68,10 +69,9 @@ Confirm routing is working
 Validate changes after rebuilds
 ## /health
  Simple text response indicating application health.
-
+``` text
 UP
-
-
+```
 Purpose:
 
 Quick readiness check
