@@ -37,17 +37,17 @@ ignite-spring-demo/
 
 ├ src/main/java/com/example/demo/
 
-│ - DemoApplication.java # Application entry point
+ │ - DemoApplication.java # Application entry point
 
-│ - HelloController.java # /java-app endpoint
+ │ - HelloController.java # /java-app endpoint
 
-│ - HealthController.java # /health endpoint
+ │ - HealthController.java # /health endpoint
 
-| - IgniteSpringDemoApplication.java 
+ | - IgniteSpringDemoApplication.java 
 
 ├ src/main/resources/
 
-│ - application.properties # App configuration
+ │ - application.properties # App configuration
 
 ├ pom.xml # Dependencies + Build config
 
