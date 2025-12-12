@@ -48,9 +48,8 @@ ignite-spring-demo/
 ├ src/main/resources/
 
 │ - application.properties # App configuration
-├ pom.xml # Dependencies + Build config
-|- README.md # Documentation
 
+├ pom.xml # Dependencies + Build config
 
 Each class is small and easy to understand , ideal for testing cloud builds.
 
